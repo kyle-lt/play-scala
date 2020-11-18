@@ -35,7 +35,8 @@ In order to run this project, you'll need:
 
 ### Steps to Run
 
-1. Copy the `.env_sample` file and name it `.env`. Edit the Java Agent Section
+1. Copy the `.env_sample` file and name it `.env`
+2. Edit the Java Agent Section
 
    > __Note:__  Information regarding Java Agent Config can be found [here](https://docs.appdynamics.com/display/PRO45/Java+Agent+Configuration+Properties).
 
@@ -57,18 +58,37 @@ Or you can just run with the images on Docker Hub using `docker-compose up -d`
 
 ### Application Flow Map
 
-![Application Flow Map](/README_Images/Application_Flow_Map.png)
+![Application Flow Map](/README_Images/Play_Scala_Flow_Map.png)
 
 ### Tiers and Nodes
 
-![Tiers and Nodes](/README_Images/Tiers_and_Nodes.png)
+![Tiers and Nodes](/README_Images/Play_Scala_Tiers_and_Nodes.png)
 
 ### Transaction Snapshot Flow Map
 
+![Transaction Snapshot Flow Map](/README_Images/Play_Scala_Transaction_Snapshot_Flow_Map.png)
+
 ### Transaction Snapshot Waterfall
+
+![Transaction Snapshot Waterfall](/README_Images/Play_Scala_Transaction_Snapshot_Waterfall.png)
 
 ### Transaction Snapshot Web Call Graph
 
+![Transaction Snapshot Web Call Graph](/README_Images/Play_Scala_Transaction_Snapshot_Scala_Web_Call_Graph.png)
+
 ### Transaction Snapshot Web Call Graph Exit Call
 
+![Transaction Snapshot Web Call Graph Exit Call](/README_Images/Play_Scala_Transaction_Snapshot_Scala_Web_Call_Graph_Exit_Call.png)
+
+### Transaction Snapshot Web Call Graph Hot Spots
+
+![Transaction Snapshot Web Call Graph Hot Spots](/README_Images/Play_Scala_Transaction_Snapshot_Scala_Web_Call_Graph_Hot_Spots.png)
+
 ### Transaction Snapshot REST API Call Graph
+
+![Transaction Snapshot REST API Call Graph](/README_Images/Play_Scala_Transaction_Snapshot_Scala_API_Call_Graph.png)
+
+### Transaction Snapshot REST API Call Graph Hot Spots
+
+![Transaction Snapshot REST API Call Graph Hot Spots](/README_Images/Play_Scala_Transaction_Snapshot_Scala_API_Call_Graph_Hot_Spots.png)
+
