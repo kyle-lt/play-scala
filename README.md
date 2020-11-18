@@ -50,9 +50,9 @@ APPDYNAMICS_CONTROLLER_SSL_ENABLED=
 # App, Tier and Node names are set in docker-compose.yml individually
 ```
 
-If you want to build, run `docker-compose build`
+Run by pulling the images on Docker Hub using `docker-compose up -d`
 
-Or you can just run with the images on Docker Hub using `docker-compose up -d`
+Or, you can build locally, run `docker-compose build`, then `docker-compose up -d`
 
 ## AppD Results
 
