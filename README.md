@@ -4,7 +4,17 @@ This project was created from cloning the 2.6.x branch of [Play Samples](https:/
 
 The Starter Project makes a WebClient call to the REST API when hitting the homepage (http://localhost:9000).
 
+See full code in HomeController.scala, but here's the gist:
+
+```scala
+val futureResponse: Future[WSResponse] = complexRequest.get()
+```
+
+### Scala-Web Home Page
+
 ![Home Page](/README_Images/Play_Scala_Home_Page.png)
+
+### Scala-API
 
 The API runs on http://localhost:9001/v1/posts.  You can also send a POST, see details at the [REST API project](https://github.com/playframework/play-samples/tree/2.6.x/play-scala-rest-api-example).
 
