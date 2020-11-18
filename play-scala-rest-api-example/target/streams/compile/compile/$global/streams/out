@@ -1,0 +1,10 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/kjt/Eclipse_Projects/play-scala/play-scala-rest-api-example/app/controllers/HomeController.scala:12:33: parameter value request in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def index = Action { implicit request =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/kjt/Eclipse_Projects/play-scala/play-scala-rest-api-example/conf/routes: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/kjt/Eclipse_Projects/play-scala/play-scala-rest-api-example/conf/routes: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/kjt/Eclipse_Projects/play-scala/play-scala-rest-api-example/conf/routes: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/kjt/Eclipse_Projects/play-scala/play-scala-rest-api-example/app/views/index.scala.html:1:1: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m@()[0m
+[0m[[0m[33mwarn[0m] [0m[0m^[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m
